@@ -1,0 +1,159 @@
+Launching lib\main.dart on A001 in debug mode...
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+lib/features/tools/resume_builder/resume_builder_screen.dart:27:9: Error: Type 'ResumeData' not found.
+  final ResumeData _data = ResumeData();
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/resume_builder_screen.dart:27:9: Error: 'ResumeData' isn't a type.
+  final ResumeData _data = ResumeData();
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/resume_builder_screen.dart:27:28: Error: Method not found: 'ResumeData'.
+  final ResumeData _data = ResumeData();
+                           ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/achievements_step.dart:7:9: Error: Type 'ResumeData' not found.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/achievements_step.dart:7:9: Error: 'ResumeData' isn't a type.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/projects_step.dart:7:9: Error: Type 'ResumeData' not found.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/projects_step.dart:107:31: Error: Type 'Project' not found.
+  Widget _projCard(int index, Project proj) {
+                              ^^^^^^^
+lib/features/tools/resume_builder/steps/projects_step.dart:7:9: Error: 'ResumeData' isn't a type.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/projects_step.dart:68:31: Error: The method 'Project' isn't defined for the type 'ProjectsStep'.
+ - 'ProjectsStep' is from 'package:careerai/features/tools/resume_builder/steps/projects_step.dart' ('lib/features/tools/resume_builder/steps/projects_step.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'Project'.
+            data.projects.add(Project());
+                              ^^^^^^^
+lib/features/tools/resume_builder/steps/projects_step.dart:107:31: Error: 'Project' isn't a type.
+  Widget _projCard(int index, Project proj) {
+                              ^^^^^^^
+lib/features/tools/resume_builder/resume_preview_screen.dart:12:9: Error: Type 'ResumeData' not found.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/resume_preview_screen.dart:365:20: Error: Type 'Experience' not found.
+  Widget _expEntry(Experience exp, Color color) {
+                   ^^^^^^^^^^
+lib/features/tools/resume_builder/resume_preview_screen.dart:400:20: Error: Type 'Education' not found.
+  Widget _eduEntry(Education edu, Color color) {
+                   ^^^^^^^^^
+lib/features/tools/resume_builder/resume_preview_screen.dart:12:9: Error: 'ResumeData' isn't a type.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/resume_preview_screen.dart:365:20: Error: 'Experience' isn't a type.
+  Widget _expEntry(Experience exp, Color color) {
+                   ^^^^^^^^^^
+lib/features/tools/resume_builder/resume_preview_screen.dart:400:20: Error: 'Education' isn't a type.
+  Widget _eduEntry(Education edu, Color color) {
+                   ^^^^^^^^^
+lib/features/tools/resume_builder/resume_pdf_service.dart:15:35: Error: Type 'ResumeData' not found.
+ static Future<File?> generatePdf(ResumeData data, String templateId) async {
+                                  ^^^^^^^^^^
+lib/features/tools/resume_builder/resume_pdf_service.dart:15:35: Error: 'ResumeData' isn't a type.
+ static Future<File?> generatePdf(ResumeData data, String templateId) async {
+                                  ^^^^^^^^^^
+lib/features/tools/resume_builder/latex_generator.dart:19:26: Error: Type 'ResumeData' not found.
+  static String generate(ResumeData data, String templateId) {
+                         ^^^^^^^^^^
+lib/features/tools/resume_builder/latex_generator.dart:45:28: Error: Type 'ResumeData' not found.
+  static String _template1(ResumeData d) {
+                           ^^^^^^^^^^
+lib/features/tools/resume_builder/latex_generator.dart:118:28: Error: Type 'ResumeData' not found.
+  static String _template2(ResumeData d) {
+                           ^^^^^^^^^^
+lib/features/tools/resume_builder/latex_generator.dart:185:28: Error: Type 'ResumeData' not found.
+  static String _template3(ResumeData d) {
+                           ^^^^^^^^^^
+lib/features/tools/resume_builder/latex_generator.dart:256:28: Error: Type 'ResumeData' not found.
+  static String _template4(ResumeData d) {
+                           ^^^^^^^^^^
+lib/features/tools/resume_builder/latex_generator.dart:19:26: Error: 'ResumeData' isn't a type.
+  static String generate(ResumeData data, String templateId) {
+                         ^^^^^^^^^^
+lib/features/tools/resume_builder/latex_generator.dart:45:28: Error: 'ResumeData' isn't a type.
+  static String _template1(ResumeData d) {
+                           ^^^^^^^^^^
+lib/features/tools/resume_builder/latex_generator.dart:118:28: Error: 'ResumeData' isn't a type.
+  static String _template2(ResumeData d) {
+                           ^^^^^^^^^^
+lib/features/tools/resume_builder/latex_generator.dart:185:28: Error: 'ResumeData' isn't a type.
+  static String _template3(ResumeData d) {
+                           ^^^^^^^^^^
+lib/features/tools/resume_builder/latex_generator.dart:256:28: Error: 'ResumeData' isn't a type.
+  static String _template4(ResumeData d) {
+                           ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/skills_step.dart:7:9: Error: Type 'ResumeData' not found.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/skills_step.dart:7:9: Error: 'ResumeData' isn't a type.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/education_step.dart:7:9: Error: Type 'ResumeData' not found.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/education_step.dart:107:30: Error: Type 'Education' not found.
+  Widget _eduCard(int index, Education edu) {
+                             ^^^^^^^^^
+lib/features/tools/resume_builder/steps/education_step.dart:7:9: Error: 'ResumeData' isn't a type.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/education_step.dart:68:33: Error: The method 'Education' isn't defined for the type 'EducationStep'.
+ - 'EducationStep' is from 'package:careerai/features/tools/resume_builder/steps/education_step.dart' ('lib/features/tools/resume_builder/steps/education_step.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'Education'.
+            data.educations.add(Education());
+                                ^^^^^^^^^
+lib/features/tools/resume_builder/steps/education_step.dart:107:30: Error: 'Education' isn't a type.
+  Widget _eduCard(int index, Education edu) {
+                             ^^^^^^^^^
+lib/features/tools/resume_builder/steps/experience_step.dart:7:9: Error: Type 'ResumeData' not found.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/experience_step.dart:109:30: Error: Type 'Experience' not found.
+  Widget _expCard(int index, Experience exp) {
+                             ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/experience_step.dart:7:9: Error: 'ResumeData' isn't a type.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/experience_step.dart:70:34: Error: The method 'Experience' isn't defined for the type 'ExperienceStep'.
+ - 'ExperienceStep' is from 'package:careerai/features/tools/resume_builder/steps/experience_step.dart' ('lib/features/tools/resume_builder/steps/experience_step.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'Experience'.
+            data.experiences.add(Experience());
+                                 ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/experience_step.dart:109:30: Error: 'Experience' isn't a type.
+  Widget _expCard(int index, Experience exp) {
+                             ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/summary_step.dart:7:9: Error: Type 'ResumeData' not found.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/summary_step.dart:7:9: Error: 'ResumeData' isn't a type.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/personal_info_step.dart:7:9: Error: Type 'ResumeData' not found.
+  final ResumeData data;
+        ^^^^^^^^^^
+lib/features/tools/resume_builder/steps/personal_info_step.dart:7:9: Error: 'ResumeData' isn't a type.
+  final ResumeData data;
+        ^^^^^^^^^^
+Target kernel_snapshot_program failed: Exception
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command 'E:\Applications\flutter_windows_3.41.4-stable\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 14s
+Running Gradle task 'assembleDebug'...                             14.5s
+Error: Gradle task assembleDebug failed with exit code 1
